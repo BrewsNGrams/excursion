@@ -1,3 +1,5 @@
+/* Applies font, background color, and text color to entire webpage.
+  Also sets alignment for all elements on page */
 html {
   font-family: Verdana, sans-serif;
   text-align: center;
@@ -5,6 +7,7 @@ html {
   color: white;
 }
 
+/* Sets font size and, for h2, font weight for 1st 2 header elements*/
 h1 {
   font-size: 50px;
 }
@@ -14,16 +17,19 @@ h2 {
   font-size: 42px;
 }
 
+/*Ensures copyright logo is aligned right*/
 footer {
   text-align: right;
 }
 
+/* Sets p color and size to differentiate from header pieces*/
 p {
   font-size: 21px;
   color: grey;
 }
 
-.app_dl {
+/*Class to use for any instance of the app download link */
+.app_download_link {
   color: aquamarine;
   font-size: 16px;
 }
