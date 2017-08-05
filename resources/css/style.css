@@ -30,7 +30,7 @@ p {
 
 video {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 /*Class to use for any instance of the app download link */
