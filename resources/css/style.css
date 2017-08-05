@@ -29,8 +29,7 @@ p {
 }
 
 video {
-  width: 240;
-  height: 360;
+  object-fit: contain;
 }
 
 /*Class to use for any instance of the app download link */
