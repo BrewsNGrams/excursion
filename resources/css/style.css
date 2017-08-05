@@ -28,6 +28,11 @@ p {
   color: grey;
 }
 
+video {
+  width: 100%;
+  height: auto;
+}
+
 /*Class to use for any instance of the app download link */
 .app_download_link {
   color: aquamarine;
