@@ -15,6 +15,7 @@ h1 {
 video {
   display: block;
   margin: auto;
+  position: relative;
 }
 
 h2 {
