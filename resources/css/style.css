@@ -13,7 +13,7 @@ h1 {
 }
 
 video {
-  display: block;
+  display: flex;
   margin: auto;
   position: relative;
 }
