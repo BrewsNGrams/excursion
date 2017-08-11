@@ -15,7 +15,7 @@ h1 {
 video {
   display: flex;
   margin: auto;
-  position: relative;
+  flex-shrink: 2;
 }
 
 h2 {
