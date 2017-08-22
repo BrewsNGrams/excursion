@@ -12,12 +12,19 @@ h1 {
   font-size: 50px;
 }
 
-video {
-  display: flex;
-  margin: auto;
-  flex-shrink: 2;
+.video_container {
+  width: 35%;
+  height: 200px;
+  overflow: hidden;
 }
 
+.video_container video {
+  display: block;
+  max-height: 100%;
+  width: auto;
+}
+
+}
 h2 {
   font-weight: 300;
   font-size: 42px;
